@@ -26,7 +26,8 @@ layouts = [
     ["6.0",             "fl-fr-fc-bc-sl-sr"],
     ["6.0(front)",      "fl-fr-flc-frc-sl-sr"],
     ["hexagonal",       "fl-fr-fc-bl-br-bc"],
-    ["6.1",             "fl-fr-fc-lfe-bl-br-bc"],
+    ["6.1",             "fl-fr-fc-lfe-bc-sl-sr"],
+    ["6.1(back)",       "fl-fr-fc-lfe-bl-br-bc"],
     ["6.1(front)",      "fl-fr-lfe-flc-frc-sl-sr"],
     ["7.0",             "fl-fr-fc-bl-br-sl-sr"],
     ["7.0(front)",      "fl-fr-fc-flc-frc-sl-sr"],
@@ -77,7 +78,8 @@ for name, speakers_str in layouts:
                  ["sin(440*2*PI*t)"] +
                  ["0" for i in range(idx + 1, len(speakers))])
         display = "\\'" + name + ": " + speaker + " (" + long_name + ")\\'"
-        agraph = "aevalsrc=" + "|".join(parts) + ":s=8000:c=" + name
+        lavc_layout = "+".join(speakers).upper()
+        agraph = "aevalsrc=exprs=" + "|".join(parts) + ":s=8000:c=" + lavc_layout
         vgraph = ("color=s=1024x128:c=white," +
                   "drawtext=text=" + display + ":fontfile=" + FONTFILE + ":box=1:fontsize=72:x=20:y=(h-text_h)/2")
         graph = agraph + " [out0] ; " + vgraph + " [out1]"
