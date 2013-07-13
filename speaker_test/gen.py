@@ -1,4 +1,4 @@
-FFMPEG_PATH="ffmpeg"
+FFMPEG_PATH="/home/vlx/mpv/build_libs/bin/ffmpeg"
 # needed by ffmpeg's vf_drawtext
 FONTFILE="/usr/share/fonts/truetype/msttcorefonts/Verdana.ttf"
 CLIP_LEN=1
@@ -100,4 +100,41 @@ for name, speakers_str in layouts:
     os.unlink(concat_file)
     for entry in speaker_files:
         os.unlink(entry)
+
+# generate channel_layout_order_tred.png
+speaker_sets = {}
+speaker_label = {}
+for idx, [name, speakers_str] in enumerate(layouts):
+    speaker_sets[name] = set(speakers_str.split("-"))
+    speaker_label[name] = "n%d" % idx
+
+dot = ""
+for name, speakers in speaker_sets.items():
+    dot += "%s [label=\"%s\"];\n" % (speaker_label[name], name)
+    for other, other_speakers in speaker_sets.items():
+        if speakers <= other_speakers:
+            dot += "%s -> %s\n" % (speaker_label[name], speaker_label[other])
+            label = ""
+            for i in sorted(other_speakers - speakers):
+                label += "+" + i
+            if label:
+                dot += " [label=\"%s\"] [fontsize=6]" % label
+            dot += ";"
+
+f = file("tmp_channel_layout_order_full.dot", "w")
+f.write("digraph gr {\n")
+f.write(dot)
+f.write("}\n")
+f.close()
+
+f = file("tmp_channel_layout_order_tred.dot", "w")
+subprocess.check_call(["tred", "tmp_channel_layout_order_full.dot"], stdout=f)
+f.close()
+
+os.unlink("tmp_channel_layout_order_full.dot")
+
+subprocess.check_call(["dot", "-Tpng", "-ochannel_layout_order_tred.png",
+                      "tmp_channel_layout_order_tred.dot"])
+
+os.unlink("tmp_channel_layout_order_tred.dot")
 
