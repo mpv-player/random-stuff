@@ -83,11 +83,20 @@ HEAD
 
         extract_uids "$color.mkv"
 
+        begin="00.000000000"
+        end="$seconds.000000000"
+
+        [ -n "$begin_override" ] && \
+            begin="$begin_override"
+
+        [ -n "$end_override" ] && \
+            end="$end_override"
+
         cat >> "$country.xml" <<CHAPTER
     <ChapterAtom>
       <ChapterUID>$RANDOM</ChapterUID>
-      <ChapterTimeStart>00:00:00.000000000</ChapterTimeStart>
-      <ChapterTimeEnd>00:00:$seconds.000000000</ChapterTimeEnd>
+      <ChapterTimeStart>00:00:$begin</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:$end</ChapterTimeEnd>
       <ChapterSegmentUID format="hex">$segment_uid</ChapterSegmentUID>
       <ChapterDisplay>
         <ChapterString>$color</ChapterString>
@@ -250,3 +259,15 @@ create_videos () {
 
 # Create the standard videos.
 create_videos "standard"
+
+# Create videos which use countries after they start.
+begin_override="$seconds.050000000"
+end_override="$(( 2 * $seconds )).05000000"
+create_videos "start-after-end"
+begin_override=
+end_override=
+
+# Create videos which extend past the end of the source video.
+end_override="$seconds.050000000"
+create_videos "end-after-end"
+end_override=

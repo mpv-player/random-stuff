@@ -18,3 +18,14 @@ videos by segment and edition. Lastly, a ``world.mkv`` file is generated which
 references each continent file by segment and edition.
 
 This should test the trickier parts of the feature.
+
+Groups
+======
+There are a few groups of videos in here:
+
+  - ``standard``:  expected to work without any issues
+  - ``start-after-end``: all parts should be missing because the country
+    videos reference the color videos starting after their ends
+  - ``end-after-end``: should play fine, but there should be missing time
+    because the color videos are shorter than requested from the country
+    videos (the end timeline should look just like ``standard``)
