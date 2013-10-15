@@ -29,3 +29,9 @@ There are a few groups of videos in here:
   - ``end-after-end``: should play fine, but there should be missing time
     because the color videos are shorter than requested from the country
     videos (the end timeline should look just like ``standard``)
+  - ``negative-gap``: color videos are referenced in two overlapping sections
+    which should be used as a single timeline part since the difference is
+    tiny
+  - ``positive-gap``: color videos are referenced in two non-overlapping
+    sections which should be used as a single timeline part since the
+    difference is tiny

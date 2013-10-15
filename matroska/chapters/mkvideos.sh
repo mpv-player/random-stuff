@@ -83,16 +83,40 @@ HEAD
 
         extract_uids "$color.mkv"
 
-        begin="00.000000000"
-        end="$seconds.000000000"
+        if [ -n "$gap" ]; then
+            cat >> "$country.xml" <<CHAPTER
+    <ChapterAtom>
+      <ChapterUID>$RANDOM</ChapterUID>
+      <ChapterTimeStart>00:00:00.000000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:$end_gap</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">$segment_uid</ChapterSegmentUID>
+      <ChapterDisplay>
+        <ChapterString>$color</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>$RANDOM</ChapterUID>
+      <ChapterTimeStart>00:00:$start_gap</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:$seconds.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">$segment_uid</ChapterSegmentUID>
+      <ChapterDisplay>
+        <ChapterString>$color</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+CHAPTER
+        else
+            begin="00.000000000"
+            end="$seconds.000000000"
 
-        [ -n "$begin_override" ] && \
-            begin="$begin_override"
+            [ -n "$begin_override" ] && \
+                begin="$begin_override"
 
-        [ -n "$end_override" ] && \
-            end="$end_override"
+            [ -n "$end_override" ] && \
+                end="$end_override"
 
-        cat >> "$country.xml" <<CHAPTER
+            cat >> "$country.xml" <<CHAPTER
     <ChapterAtom>
       <ChapterUID>$RANDOM</ChapterUID>
       <ChapterTimeStart>00:00:$begin</ChapterTimeStart>
@@ -104,6 +128,7 @@ HEAD
       </ChapterDisplay>
     </ChapterAtom>
 CHAPTER
+        fi
     done
 
     cat >> "$country.xml" <<TAIL
@@ -271,3 +296,16 @@ end_override=
 end_override="$seconds.050000000"
 create_videos "end-after-end"
 end_override=
+
+# Create videos in which chapters get stitched together into a single timeline
+# part.
+gap="yes"
+end_gap="01.050000000"
+start_gap="00.950000000"
+create_videos "negative-gap"
+end_gap="00.950000000"
+start_gap="01.050000000"
+create_videos "positive-gap"
+gap=
+end_gap=
+start_gap=
