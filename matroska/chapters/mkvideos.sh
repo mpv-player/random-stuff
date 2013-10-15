@@ -47,11 +47,6 @@ for_each_color () {
     "$cmd" black "$@"
 }
 
-# Create small videos of each color.
-for_each_color create_image
-for_each_color create_list
-for_each_color create_video
-
 extract_uids () {
     file="$1"
     shift
@@ -220,20 +215,38 @@ TAIL
         -o "world.mkv"
 }
 
-# Create a dummy base video.
-create_image transparent
-echo "transparent.$image_format" > "transparent.txt"
-create_video transparent
+create_videos () {
+    variant="$1"
+    shift
 
-create_country_video america red white blue
-create_country_video canada red white red
-create_country_video germany black red yellow
-create_country_video france blue white red
-create_country_video japan white red
-create_country_video china red yellow
+    mkdir -p "$variant"
+    cd "$variant"
 
-create_continent_video north-america america 3 canada 3
-create_continent_video europe germany 3 france 3
-create_continent_video asia japan 2 china 2
+    # Create small videos of each color.
+    for_each_color create_image
+    for_each_color create_list
+    for_each_color create_video
 
-create_world_video north-america 6 europe 6 asia 4
+    # Create a dummy base video.
+    create_image transparent
+    echo "transparent.$image_format" > "transparent.txt"
+    create_video transparent
+
+    create_country_video america red white blue
+    create_country_video canada red white red
+    create_country_video germany black red yellow
+    create_country_video france blue white red
+    create_country_video japan white red
+    create_country_video china red yellow
+
+    create_continent_video north-america america 3 canada 3
+    create_continent_video europe germany 3 france 3
+    create_continent_video asia japan 2 china 2
+
+    create_world_video north-america 6 europe 6 asia 4
+
+    cd ..
+}
+
+# Create the standard videos.
+create_videos "standard"
