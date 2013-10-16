@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!-- <!DOCTYPE Chapters SYSTEM "matroskachapters.dtd"> -->
+<Chapters>
+  <EditionEntry>
+    <EditionUID>29510</EditionUID>
+    <EditionFlagDefault>1</EditionFlagDefault>
+    <EditionFlagOrdered>1</EditionFlagOrdered>
+    <ChapterAtom>
+      <ChapterUID>4670</ChapterUID>
+      <ChapterTimeStart>00:00:0.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:2.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x7d 0xc1 0x87 0x40 0xc1 0xb3 0x3f 0x5f 0xb7 0xc1 0xb7 0x9a 0xff 0xa3 0x56 0xe1</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>5820</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>japan-0</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>32394</ChapterUID>
+      <ChapterTimeStart>00:00:2.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:4.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x7d 0xc1 0x87 0x40 0xc1 0xb3 0x3f 0x5f 0xb7 0xc1 0xb7 0x9a 0xff 0xa3 0x56 0xe1</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>5820</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>japan-1</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>15930</ChapterUID>
+      <ChapterTimeStart>00:00:0.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:2.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x4e 0x9c 0xd4 0xbe 0xfd 0xb6 0x10 0x29 0xf9 0xc6 0xba 0x75 0x92 0xe4 0x05 0x75</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>29467</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>china-0</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>589</ChapterUID>
+      <ChapterTimeStart>00:00:2.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:4.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x4e 0x9c 0xd4 0xbe 0xfd 0xb6 0x10 0x29 0xf9 0xc6 0xba 0x75 0x92 0xe4 0x05 0x75</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>29467</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>china-1</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+  </EditionEntry>
+</Chapters>

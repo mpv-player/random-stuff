@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!-- <!DOCTYPE Chapters SYSTEM "matroskachapters.dtd"> -->
+<Chapters>
+  <EditionEntry>
+    <EditionUID>25110</EditionUID>
+    <EditionFlagDefault>1</EditionFlagDefault>
+    <EditionFlagOrdered>1</EditionFlagOrdered>
+    <ChapterAtom>
+      <ChapterUID>18485</ChapterUID>
+      <ChapterTimeStart>00:00:0.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:2.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x8d 0xe7 0x31 0x11 0x84 0x34 0x22 0xc8 0x23 0xda 0xd6 0x43 0xe9 0x90 0x18 0xc1</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>24064</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>germany-0</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>10034</ChapterUID>
+      <ChapterTimeStart>00:00:2.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:4.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x8d 0xe7 0x31 0x11 0x84 0x34 0x22 0xc8 0x23 0xda 0xd6 0x43 0xe9 0x90 0x18 0xc1</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>24064</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>germany-1</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>5082</ChapterUID>
+      <ChapterTimeStart>00:00:4.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:6.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0x8d 0xe7 0x31 0x11 0x84 0x34 0x22 0xc8 0x23 0xda 0xd6 0x43 0xe9 0x90 0x18 0xc1</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>24064</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>germany-2</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>11807</ChapterUID>
+      <ChapterTimeStart>00:00:0.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:2.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0xa5 0x03 0x5a 0x73 0xa7 0x12 0xc6 0x2e 0x3e 0x81 0xab 0x72 0x75 0xfb 0x2d 0x10</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>28894</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>france-0</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>18667</ChapterUID>
+      <ChapterTimeStart>00:00:2.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:4.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0xa5 0x03 0x5a 0x73 0xa7 0x12 0xc6 0x2e 0x3e 0x81 0xab 0x72 0x75 0xfb 0x2d 0x10</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>28894</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>france-1</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+    <ChapterAtom>
+      <ChapterUID>14957</ChapterUID>
+      <ChapterTimeStart>00:00:4.050000000</ChapterTimeStart>
+      <ChapterTimeEnd>00:00:6.000000000</ChapterTimeEnd>
+      <ChapterSegmentUID format="hex">0xa5 0x03 0x5a 0x73 0xa7 0x12 0xc6 0x2e 0x3e 0x81 0xab 0x72 0x75 0xfb 0x2d 0x10</ChapterSegmentUID>
+      <ChapterSegmentEditionUID>28894</ChapterSegmentEditionUID>
+      <ChapterDisplay>
+        <ChapterString>france-2</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+      </ChapterDisplay>
+    </ChapterAtom>
+  </EditionEntry>
+</Chapters>
