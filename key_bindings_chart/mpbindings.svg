@@ -32,9 +32,9 @@
      objecttolerance="10000"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="500.58882"
-     inkscape:cy="384.49261"
+     inkscape:zoom="1.979899"
+     inkscape:cx="611.36273"
+     inkscape:cy="314.23479"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1024px"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -771,7 +771,7 @@
     </g>
     <rect
        ry="2.2404845"
-       y="319.28571"
+       y="320.35715"
        x="660.71429"
        height="30"
        width="60.000004"
@@ -1831,6 +1831,14 @@
          x="591.94769"
          id="tspan7041"
          sodipodi:role="line">K</tspan></text>
+    <rect
+       style="font-size:18px;fill:#fcaf3e;fill-opacity:1;stroke:none"
+       id="rect8437-9-1"
+       width="59.494934"
+       height="30.943054"
+       x="660.60962"
+       y="288.45706"
+       ry="2.3109145" />
     <text
        id="text7043"
        y="314.4007"
@@ -4159,5 +4167,24 @@
          y="586.27032"
          id="tspan4186-8"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7px;font-family:Sans;-inkscape-font-specification:'Sans Bold'">10 min.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9px;line-height:89.99999762%;font-family:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       x="695.50067"
+       y="303.06683"
+       id="text10547-6-8"
+       sodipodi:linespacing="89.999998%"><tspan
+         sodipodi:role="line"
+         x="696.71747"
+         y="303.06683"
+         style="font-size:7px"
+         id="tspan4590-4">T<tspan
+   style="font-size:6.25px"
+   id="tspan5698">oggle </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="695.50067"
+         y="309.36682"
+         style="font-size:6.25px"
+         id="tspan5694">infinite loop</tspan></text>
   </g>
 </svg>
