@@ -96,7 +96,7 @@
    <rect id="rect8447" ry="4.481" height="60" width="59.495" y="329" x="660" fill="#eeeeec"/>
    <path id="path8451" d="m660.32 359.97h59.315" stroke="#000" stroke-width="1.0892px" fill="none"/>
   </g>
-  <rect id="rect7171-8-4" ry="2.2405" height="30" width="60" y="319.29" x="660.71" fill="#ef2929"/>
+  <rect id="rect7171-8-4" ry="2.2405" height="30" width="60" y="320.36" x="660.71" fill="#ef2929"/>
   <text id="text3708" xml:space="preserve" font-size="18px" y="344.85968" x="664.90234" font-family="Sans" fill="#000000"><tspan id="tspan3710" font-size="18px" y="344.85968" x="664.90234" font-family="Sans">l</tspan></text>
   <text id="text3716" xml:space="preserve" font-size="18px" y="339.93781" x="732.63672" font-family="Sans" fill="#000000"><tspan id="tspan3718" font-size="18px" y="339.93781" x="732.63672" font-family="Sans">;</tspan></text>
   <rect id="rect3720" ry="4.481" height="60" width="59.495" y="289.56" x="800.86" fill="#eeeeec"/>
@@ -221,6 +221,7 @@
   <text id="text7031" xml:space="preserve" font-size="18px" y="312.8028" x="453.40842" font-family="Sans" fill="#000000"><tspan id="tspan7033" font-size="18px" y="312.8028" x="453.40842" font-family="Sans">H</tspan></text>
   <text id="text7035" xml:space="preserve" font-size="18px" y="313.75299" x="524.0639" font-family="Sans" fill="#000000"><tspan id="tspan7037" font-size="18px" y="313.75299" x="524.0639" font-family="Sans">J</tspan></text>
   <text id="text7039" xml:space="preserve" font-size="18px" y="312.69351" x="591.94769" font-family="Sans" fill="#000000"><tspan id="tspan7041" font-size="18px" y="312.69351" x="591.94769" font-family="Sans">K</tspan></text>
+  <rect id="rect8437-9-1" ry="2.3109" height="30.943" width="59.495" y="288.46" x="660.61" fill="#fcaf3e"/>
   <text id="text7043" xml:space="preserve" font-size="18px" y="314.4007" x="664.31641" font-family="Sans" fill="#000000"><tspan id="tspan7045" font-size="18px" y="314.4007" x="664.31641" font-family="Sans">L</tspan></text>
   <text id="text7047" xml:space="preserve" font-size="18px" y="312.88547" x="732.49005" font-family="Sans" fill="#000000"><tspan id="tspan7049" font-size="18px" y="312.88547" x="732.49005" font-family="Sans">:</tspan></text>
   <text id="text7051" xml:space="preserve" font-size="18px" y="242.179" x="375.07617" font-family="Sans" fill="#000000"><tspan id="tspan7053" font-size="18px" y="242.179" x="375.07617" font-family="Sans">T</tspan></text>
@@ -406,5 +407,6 @@
   <text id="text3680-7-9" xml:space="preserve" font-size="12.984px" y="599.94568" x="502.52689" font-family="Sans" fill="#000000"><tspan id="tspan3682-9-1" y="599.94568" x="502.52689">PgDn</tspan></text>
   <path id="path3814-8-9" d="m541.33 595.81h21.94" stroke="#000" stroke-width=".66242px" fill="none"/>
   <text id="text4182-3" style="word-spacing:0px;letter-spacing:0px" font-weight="bold" xml:space="preserve" font-size="7px" y="577.52032" x="514.90436" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4184-5" y="577.52032" x="514.90436">Seek bk. </tspan><tspan id="tspan4186-8" y="586.27032" x="514.90436">10 min.</tspan></text>
+  <text id="text10547-6-8" style="text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" line-height="89.99999762%" y="303.06683" x="695.50067" font-family="Sans" fill="#000000"><tspan id="tspan4590-4" font-size="7px" y="303.06683" x="696.71747">T<tspan id="tspan5698" font-size="6.25px">oggle </tspan></tspan><tspan id="tspan5694" font-size="6.25px" y="309.36682" x="695.50067">infinite loop</tspan></text>
  </g>
 </svg>
