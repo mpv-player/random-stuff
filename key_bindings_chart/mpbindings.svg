@@ -32,9 +32,9 @@
      objecttolerance="10000"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="611.36273"
-     inkscape:cy="314.23479"
+     inkscape:zoom="2.8"
+     inkscape:cx="374.85605"
+     inkscape:cy="250.19129"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      width="1024px"
@@ -83,6 +83,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,10)">
+    <rect
+       ry="2.2404845"
+       y="289.64285"
+       x="240.35715"
+       height="30"
+       width="60"
+       id="rect7269-3-72-7-5"
+       style="font-size:18px;fill:#eeeeec;fill-opacity:1;stroke:none" />
     <rect
        ry="4.480969"
        y="359.28571"
@@ -486,10 +494,10 @@
        style="font-size:18px;opacity:1;fill:#fce94f;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3620"
        width="60.505096"
-       height="60"
-       x="239.5921"
-       y="289.55695"
-       ry="4.480969" />
+       height="30.714285"
+       x="240.12782"
+       y="318.84265"
+       ry="2.2938292" />
     <rect
        ry="4.480969"
        y="289.55695"
@@ -688,12 +696,12 @@
          sodipodi:role="line">D</tspan></text>
     <text
        id="text3684"
-       y="343.23273"
-       x="244.3418"
+       y="342.51843"
+       x="242.91322"
        style="font-style:normal;font-weight:normal;font-size:18px;font-family:Sans;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         y="343.23273"
-         x="244.3418"
+         y="342.51843"
+         x="242.91322"
          id="tspan3686"
          sodipodi:role="line"
          style="font-size:18px;font-family:Sans">d</tspan></text>
@@ -3403,36 +3411,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:bold;font-size:7px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="277.15836"
-       y="327.14285"
-       id="text4055"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4057"
-         x="277.15836"
-         y="327.14285">Cycle</tspan><tspan
-         sodipodi:role="line"
-         x="277.15836"
-         y="335.89285"
-         id="tspan4061">framedrop</tspan><tspan
-         sodipodi:role="line"
-         x="277.15836"
-         y="344.64285"
-         id="tspan4065">mode</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:bold;font-size:7px;line-height:125%;font-family:Sans;-inkscape-font-specification:'Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="278.80783"
-       y="300.71429"
+       x="277.37924"
+       y="331.42859"
        id="text4067"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4069"
-         x="278.80783"
-         y="300.71429">Toggle</tspan><tspan
+         x="277.37924"
+         y="331.42859">Toggle</tspan><tspan
          sodipodi:role="line"
-         x="278.80783"
-         y="309.46429"
+         x="277.37924"
+         y="340.17859"
          id="tspan4071">deinterlace</tspan></text>
     <text
        xml:space="preserve"

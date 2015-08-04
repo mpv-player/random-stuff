@@ -11,6 +11,7 @@
   </rdf:RDF>
  </metadata>
  <g id="layer1" transform="translate(0,10)">
+  <rect id="rect7269-3-72-7-5" ry="2.2405" height="30" width="60" y="289.64" x="240.36" fill="#eeeeec"/>
   <rect id="rect3772-6" ry="4.481" height="60" width="59.495" y="359.29" x="250.25" fill="#eeeeec"/>
   <rect id="rect3876-6" ry="4.481" height="60" width="60" y="220.08" x="159.91" fill="#8ae234"/>
   <text id="text10564-9" font-weight="bold" font-size="9px" line-height="89.99999762%" y="512.0166" x="743.1875" font-family="Sans" xml:space="preserve" fill="#000000"><tspan id="tspan10570-8" y="512.0166" x="743.1875"/></text>
@@ -59,7 +60,7 @@
   <text id="text3556" xml:space="preserve" font-size="22px" y="188.60269" x="798.63989" font-family="Sans" fill="#000000"><tspan id="tspan3558" y="188.60269" x="798.63989" font-family="Sans"/></text>
   <rect id="rect3616" ry="4.481" height="60" width="60" y="289.56" x="99.592" fill="#eeeeec"/>
   <rect id="rect3618" ry="4.481" height="60" width="59.495" y="289.56" x="170.05" fill="#fce94f"/>
-  <rect id="rect3620" ry="4.481" height="60" width="60.505" y="289.56" x="239.59" fill="#fce94f"/>
+  <rect id="rect3620" ry="2.2938" height="30.714" width="60.505" y="318.84" x="240.13" fill="#fce94f"/>
   <rect id="rect3622" ry="4.481" height="60" width="59.495" y="289.56" x="310.05" fill="#fce94f"/>
   <rect id="rect7269-3-72-8-7" ry="2.2405" height="30" width="60" y="289.63" x="309.92" fill="#ad7fa8"/>
   <rect id="rect3624" ry="4.481" height="60" width="60" y="290" x="380" fill="#ad7fa8"/>
@@ -86,7 +87,7 @@
   <path id="path3674" d="m660.14 320.56h59.319" stroke="#000" stroke-width="1.0892px" fill="none"/>
   <path id="path3678" d="m730.54 320.06h59.319" stroke="#000" stroke-width="1.0892px" fill="none"/>
   <text id="text3680" xml:space="preserve" font-size="18px" y="311.6998" x="243.62431" font-family="Sans" fill="#000000"><tspan id="tspan3682" y="311.6998" x="243.62431">D</tspan></text>
-  <text id="text3684" xml:space="preserve" font-size="18px" y="343.23273" x="244.3418" font-family="Sans" fill="#000000"><tspan id="tspan3686" font-size="18px" y="343.23273" x="244.3418" font-family="Sans">d</tspan></text>
+  <text id="text3684" xml:space="preserve" font-size="18px" y="342.51843" x="242.91322" font-family="Sans" fill="#000000"><tspan id="tspan3686" font-size="18px" y="342.51843" x="242.91322" font-family="Sans">d</tspan></text>
   <text id="text3688" xml:space="preserve" font-size="18px" y="341.5882" x="316.80347" font-family="Sans" fill="#000000"><tspan id="tspan3690" font-size="18px" y="341.5882" x="316.80347" font-family="Sans">f</tspan></text>
   <text id="text3692" xml:space="preserve" font-size="18px" y="340.94226" x="388.0748" font-family="Sans" fill="#000000"><tspan id="tspan3694" font-size="18px" y="340.94226" x="388.0748" font-family="Sans">g</tspan></text>
   <text id="text3696" xml:space="preserve" font-size="18px" y="340.17078" x="457.34314" font-family="Sans" fill="#000000"><tspan id="tspan3698" font-size="18px" y="340.17078" x="457.34314" font-family="Sans">h</tspan></text>
@@ -354,8 +355,7 @@
   <text id="text5013-5" xml:space="preserve" font-size="18px" y="173.90135" x="785.75647" font-family="Sans" fill="#000000"><tspan id="tspan5015-8" font-size="18px" y="173.90135" x="785.75647" font-family="Sans">_</tspan></text>
   <text id="text5013-0" xml:space="preserve" font-size="18px" y="173.48293" x="856.88031" font-family="Sans" fill="#000000"><tspan id="tspan5015-2" font-size="18px" y="173.48293" x="856.88031" font-family="Sans">+</tspan></text>
   <text id="text3987" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="163.57144" x="747.17548" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan3989" x="747.17548" y="163.57144">Balance</tspan><tspan id="tspan3991" x="747.17548" y="172.32144">right</tspan></text>
-  <text id="text4055" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="327.14285" x="277.15836" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4057" x="277.15836" y="327.14285">Cycle</tspan><tspan id="tspan4061" x="277.15836" y="335.89285">framedrop</tspan><tspan id="tspan4065" x="277.15836" y="344.64285">mode</tspan></text>
-  <text id="text4067" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="300.71429" x="278.80783" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4069" x="278.80783" y="300.71429">Toggle</tspan><tspan id="tspan4071" x="278.80783" y="309.46429">deinterlace</tspan></text>
+  <text id="text4067" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="331.42859" x="277.37924" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4069" x="277.37924" y="331.42859">Toggle</tspan><tspan id="tspan4071" x="277.37924" y="340.17859">deinterlace</tspan></text>
   <text id="text4073" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="332.14285" x="348.33899" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4075" x="348.33899" y="332.14285">Toggle</tspan><tspan id="tspan4077" x="348.33899" y="340.89285">fullscreen</tspan></text>
   <text id="text4105" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="399.28571" x="360.13101" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4107" x="360.13101" y="399.28571">Toggle</tspan><tspan id="tspan4109" x="360.13101" y="408.03571">subtitle</tspan><tspan id="tspan4111" x="360.13101" y="416.78571">visibility</tspan></text>
   <text id="text4113" style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" font-weight="bold" xml:space="preserve" font-size="7px" y="368.57144" x="358.0878" font-family="Sans" line-height="125%" fill="#000000"><tspan id="tspan4115" x="358.0878" y="368.57144">Toggle</tspan><tspan id="tspan4117" x="358.0878" y="377.32144">VSFilter</tspan><tspan id="tspan4119" x="358.0878" y="386.07144">sub aspect</tspan></text>
